@@ -15,3 +15,4 @@ node index.js --space <SPACE ID> --token <ACCESS TOKEN>
 TODO: 
 
 * actually traverse the object graph returned from Contentful in order to intelligently handle object links
+* check if files exist and skip writing if they do
