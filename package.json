@@ -1,0 +1,16 @@
+{
+  "name": "contentful-hugo",
+  "version": "1.0.0",
+  "description": "Testing a script to read content from Contentful and export it for use in Hugo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rob Rankin",
+  "license": "ISC",
+  "devDependencies": {
+    "contentful": "^4.3.0",
+    "mkdirp": "^0.5.1",
+    "slugify": "^1.1.0"
+  }
+}
