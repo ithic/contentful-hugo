@@ -3,10 +3,11 @@ const contentful = require('contentful')
 var slugify = require('slugify')
 const mkdirp = require('mkdirp')
 var fs = require('fs')
+var argv = require('minimist')(process.argv.slice(2));
 
 const client = contentful.createClient({
-  space: 't9jvaptmnytk',
-  accessToken: '2a56689fbef5a84df655cf8461b0f822f7ef9fd0c9009a6256b62d0cd44b598f'
+  space: argv['space'] ? argv['space'] : process.env.CONTENTFUL_SPACE,
+  accessToken: argv['token'] ? argv['token'] : process.env.CONTENTFUL_TOKEN
 })
 
 function writeEntriesForType(contentType) {
