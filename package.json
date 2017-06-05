@@ -1,6 +1,6 @@
 {
   "name": "contentful-hugo",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Testing a script to read content from Contentful and export it for use in Hugo",
   "main": "index.js",
   "scripts": {
