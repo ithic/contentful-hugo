@@ -8,7 +8,7 @@
   },
   "author": "Rob Rankin",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "contentful": "^4.3.0",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
