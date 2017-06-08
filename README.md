@@ -1,4 +1,4 @@
-NPM module for a build pipeline that reads content from Contentful and writes it out for Contentful.
+NPM module for a build pipeline that reads content from Contentful and writes it out for Victor Hugo.
 
 Usage:
 
