@@ -1,4 +1,4 @@
-NPM module for a build pipeline that reads content from Contentful and writes it out for Victor Hugo.
+Super ultra-pre-alpha NPM module for a build pipeline that reads content from Contentful and writes it out for Victor Hugo. More of a proof of concept at this point, but it does work in limited cases. 
 
 Usage:
 
@@ -16,3 +16,4 @@ TODO:
 
 * actually traverse the object graph returned from Contentful in order to intelligently handle object links
 * check if files exist and skip writing if they do
+* provide an actual entry point for use in a build pipeline
